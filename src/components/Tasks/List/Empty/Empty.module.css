@@ -1,0 +1,21 @@
+.empty {
+    border-top: 1px solid var(--gray-400);
+    padding: 6rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+    flex-direction: column;
+}
+
+.empty h1 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.empty span {
+    font-weight: 400;
+    font-size: 1rem;
+}

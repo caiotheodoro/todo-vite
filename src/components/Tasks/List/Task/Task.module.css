@@ -1,0 +1,75 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    padding: 1rem;
+    height: 5rem;
+    gap: 12px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.task h1 {
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 400;
+    gap: 14px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.check {
+    text-decoration: line-through;
+    color: var(--gray-300);
+
+}
+
+.check h1 {
+    color: var(--gray-300);
+}
+
+.check span {
+    background-color:  var(--purple-500);
+    color: var(--white);
+    
+}
+
+.uncheck span {
+    border: 2px solid  var(--blue-300);
+}
+
+.task span {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+
+
+.task span:hover {
+    border: 2px solid  var(--purple-500);
+}
+
+.task + .task {
+    margin-top: 1rem;
+}
+
+.task button {
+    background-color: transparent;
+    border: 0px;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.task button:hover {
+    
+    color: var(--red-500)
+
+}

@@ -1,0 +1,27 @@
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+.info h1{
+    font-size: 0.875rem;
+    color: var(--blue-300);
+}
+
+.info h1:last-child{
+    color: var(--purple-300);
+
+}
+
+
+.info span{
+    font-size: 0.75rem;
+    margin-left: 10px;
+    color: white;
+    background-color: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 9999px;
+}

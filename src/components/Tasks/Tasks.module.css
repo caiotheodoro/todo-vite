@@ -1,0 +1,9 @@
+.tasks {
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 3.75rem;
+    margin-top: 5.25rem;
+}
